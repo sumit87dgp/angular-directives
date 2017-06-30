@@ -1,0 +1,25 @@
+{
+  "name": "angular-directives",
+  "version": "1.0.0",
+  "description": "Proof of Concept for various type of Angular Directives",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sumit87dgp/angular-directives.git"
+  },
+  "author": "Sumit Saha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sumit87dgp/angular-directives/issues"
+  },
+  "homepage": "https://github.com/sumit87dgp/angular-directives#readme",
+  "devDependencies": {
+    "angular": "^1.6.4",
+    "bootstrap": "^3.3.7",
+    "express": "^4.15.3"
+  }
+}

@@ -1,0 +1,19 @@
+<html ng-app="angdmodule">
+
+<head>
+  <link rel="stylesheet" type="text/css" src="bootstrap/dist/css/bootstrap.css" />
+  <script type="text/javascript" src="angular/angular.js"></script>
+  <script type="text/javascript" src="/angdirective.js"></script>
+
+  <title>Angular JS Directives</title>
+</head>
+
+<body ng-controller="angController as angCtrl" class="container">
+  <h3> I am here for Angular JS directives</h3>
+  <div>
+    {{angCtrl.demovalue}}
+  </div>
+  <user-info-card></user-info-card>
+</body>
+
+</html>
